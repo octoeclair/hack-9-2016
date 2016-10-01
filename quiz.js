@@ -81,8 +81,13 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
       langs.push('Haskell');
       break;
     case 'artsy':
+      if (apps==1){
       langs.push('Scratch');
+      }
+      if (websites === 1){
+      langs.push('Drawing/Animation js');
       langs.push('HTML Canvas');
+      }
       break;
     case 'engineer':
       langs.push('Javascript');
@@ -94,6 +99,7 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
     case 'logical':
       langs.push('Java');
       break;
+  }
 });
 
 console.log('Rendering...');
