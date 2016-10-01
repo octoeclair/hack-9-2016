@@ -71,7 +71,10 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
     logical++;
   if (play.bgo)
     logical++;
-  
+ 
+  var webs = {};
+  webs.Javascript = 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics';
+  webs['HTML/Canvas'] = 'http://www.w3schools.com/html/';
   var langs = [];
   var dict = [['mathGood', mathGood], ['engineer', engineer], ['artsy', artsy], ['gamer', gamer], ['logical', logical]];
   dict = dict.sort(function(a, b){return b[1] - a[1]});
@@ -86,7 +89,8 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
       }
       if (websites === 1){
       langs.push('Drawing/Animation js');
-      langs.push('HTML Canvas');
+      langs.push('HTML/Canvas');
+      
       }
       break;
     case 'engineer':
@@ -100,6 +104,9 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
       langs.push('Java');
       break;
   }
+ prompt(langs[]);
+ prompt("you can learn from Codecademy.org")
+  
 });
 
 console.log('Rendering...');
