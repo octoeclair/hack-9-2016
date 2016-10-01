@@ -45,11 +45,11 @@
       "type": "checkbox",
       "answers": [
         {
-          "attributes": {"name": "fav-food-xb", "value": "apps"},
+          "attributes": {"name": "build-xb", "value": "apps"},
           "text": "Apps"
         },
         {
-          "attributes": {"name": "fav-food-xb", "value": "websites"},
+          "attributes": {"name": "build-xb", "value": "websites"},
           "text": "Websites"
         },
       ]
