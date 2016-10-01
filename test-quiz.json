@@ -40,6 +40,20 @@
         }
       ]
     }
+    {
+      "question": "Do you want to build apps or websites (or both)?",
+      "type": "checkbox",
+      "answers": [
+        {
+          "attributes": {"name": "fav-food-xb", "value": "apps"},
+          "text": "Apps"
+        },
+        {
+          "attributes": {"name": "fav-food-xb", "value": "websites"},
+          "text": "Websites"
+        },
+      ]
+    }
   ],
   "submitButtonText": "Submit"
 }
