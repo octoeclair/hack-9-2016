@@ -110,7 +110,7 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
       break;
   }
  alert(langs[0]);
- alert("you can learn from "+webs[langs[0])
+ alert("you can learn from "+webs[langs[0]])
   
 });
 
