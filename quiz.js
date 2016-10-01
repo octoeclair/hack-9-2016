@@ -104,8 +104,8 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
       langs.push('Java');
       break;
   }
- prompt(langs[0]);
- prompt("you can learn from Codecademy.org")
+ alert(langs[0]);
+ alert("you can learn from Codecademy.org")
   
 });
 
