@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <base href="/hack-9-2016/"/>
+    <base href="/hack-9-2016"/>
     <title>Awesome Quiz </title>
+    <h1>Are you ready to...</h1>
+    <h3>Take our Quiz to Find Out</h3>
   </head>
   <body>
-    <div id="personality"></div>
-    <script src="loader.js"></script>
+    <script src="loader.js">loader.render('test-quiz.json',document.getElementById('personality'));</script>
     <script src="quiz.js"></script>
+    <div id="personality"></div>
+    <img alt="" class="avatar rounded-2" height="303" size="303" src="https://avatars0.githubusercontent.com/u0/20671644?v=3&amp;s=466" width="233">
   </body>
 </html>
