@@ -75,6 +75,12 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
   var webs = {};
   webs.Javascript = 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics';
   webs['HTML/Canvas'] = 'http://www.w3schools.com/html/';
+  webs['Haskell'] = 'http://codecademy.org';
+  webs['Scratch'] = 'http://www.scratch.mit.edu';
+  webs['Drawing/Animation js'] = 'http://www.khanacademy.org';
+  webs['Javascript'] = 'http://www.codecademy.org';
+  webs['Unity'] = 'http://www.unity.org';
+  webs['Java'] = 'http://www.codecademy.org';
   var langs = [];
   var dict = [['mathGood', mathGood], ['engineer', engineer], ['artsy', artsy], ['gamer', gamer], ['logical', logical]];
   dict = dict.sort(function(a, b){return b[1] - a[1]});
@@ -97,7 +103,6 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
       langs.push('Javascript');
       break;
     case 'gamer':
-      langs.push('Roblox');
       langs.push('Unity');
       break
     case 'logical':
@@ -105,7 +110,7 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
       break;
   }
  alert(langs[0]);
- alert("you can learn from Codecademy.org")
+ alert("you can learn from "+webs[0])
   
 });
 
