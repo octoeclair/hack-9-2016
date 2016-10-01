@@ -63,7 +63,7 @@ var loader = (function() {
             a[j] = answer.attributes[j];
           
           var t = addNewEl('span', renderContainer);
-          t.innerhTML = answer.text;
+          t.innerHTML = answer.text;
           
           addNewEl('br', renderContainer);
         }
@@ -78,7 +78,7 @@ var loader = (function() {
             a[j] = answer.attributes[j];
           
           var t = addNewEl('span', renderContainer);
-          t.innerhTML = answer.text;
+          t.innerHTML = answer.text;
           
           addNewEl('br', renderContainer);
         }
