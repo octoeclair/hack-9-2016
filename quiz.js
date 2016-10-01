@@ -6,11 +6,11 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
   var gamer = 0;
   var logical = 0;
   
-  var maths = response[1];
-  for (var i = 0; i < maths.keys().length; i++) {
+ /*var maths = response[1];
+  for (var i in maths) {
     if (maths.values()[i])
       mathGood = i;
-  }
+  }*/
   
   var subjects = response[2];
   if (subjects.math)
