@@ -23,20 +23,44 @@
       ]
     },
     {
-      "question": "Which foods do you like?",
-      "type": "checkbox",
+      "question": "What type of games do you play?",
+      "type": "radio",
       "answers": [
         {
-          "attributes": {"name": "fav-food-xb", "value": "pizza"},
-          "text": "Pizza"
+          "attributes": {"name": "fav-game", "value": "vd"},
+          "text": "Village Development"
         },
         {
-          "attributes": {"name": "fav-food-xb", "value": "burgers"},
-          "text": "Burgers"
+          "attributes": {"name": "fav-game", "value": "tg"},
+          "text": "Tower Games"
         },
         {
-          "attributes": {"name": "fav-food-xb", "value": "sushi"},
-          "text": "Sushi"
+          "attributes": {"name": "fav-game", "value": "svg"},
+          "text": "Sport Video Games"
+        },
+        {
+          "attributes": {"name": "fav-food-xb", "value": "fps"},
+          "text": "First Person Shooter"
+        },
+        {
+          "attributes": {"name": "fav-game", "value": "ps"},
+          "text": "Physical Sports"
+        },
+        {
+          "attributes": {"name": "fav-game", "value": "p"},
+          "text": "Platformers"
+        },
+        {
+          "attributes": {"name": "fav-game", "value": "l/p"},
+          "text": "Logic/Puzzles"
+        },
+        {
+          "attributes": {"name": "fav-game", "value": "bg"},
+          "text": "Board Games"
+        },
+        {
+          "attributes": {"name": "fav-game", "value": "any"},
+          "text": "Anything that helps me relax"
         }
       ]
     },
