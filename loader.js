@@ -28,6 +28,7 @@ var loader = (function() {
   
   function renderFromURL(url, renderContainer, onsubmit) {
     requestJSON(url, function(j) {
+      console.log('Creating form...');
       var sections = j.sections;
       for (var i = 0; i < sections.length; i++) {
         renderSection(sections[i], renderContainer);
