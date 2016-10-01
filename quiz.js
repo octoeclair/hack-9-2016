@@ -71,5 +71,29 @@ loader.render('pquiz.json', document.getElementById('personality'), function(res
     logical++;
   if (play.bgo)
     logical++;
+  
+  var langs = [];
+  var dict = [['mathGood', mathGood], ['engineer', engineer], ['artsy', artsy], ['gamer', gamer], ['logical', logical]];
+  dict = dict.sort(function(a, b){return b[1] - a[1]});
+  
+  switch (dict[0][0]) {
+    case 'mathGood':
+      langs.push('Haskell');
+      break;
+    case 'artsy':
+      langs.push('Scratch');
+      langs.push('HTML Canvas');
+      break;
+    case 'engineer':
+      langs.push('Javascript');
+      break;
+    case 'gamer':
+      langs.push('Roblox');
+      langs.push('Unity');
+      break
+    case 'logical':
+      langs.push('Java');
+      break;
 });
+
 console.log('Rendering...');
