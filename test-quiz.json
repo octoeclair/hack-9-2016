@@ -24,7 +24,7 @@
     },
     {
       "question": "What type of games do you play?",
-      "type": "radio",
+      "type": "checkbox",
       "answers": [
         {
           "attributes": {"name": "fav-game", "value": "vd"},
