@@ -39,7 +39,7 @@
           "text": "Sushi"
         }
       ]
-    }
+    },
     {
       "question": "Do you want to build apps or websites (or both)?",
       "type": "checkbox",
