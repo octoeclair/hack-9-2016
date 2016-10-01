@@ -1,0 +1,44 @@
+{
+  "sections": [
+    {
+      "question": "How old are you?",
+      "type": "number"
+    },
+    {
+      "question": "What's your favorite food?",
+      "type": "radio",
+      "answers": [
+        {
+          "attributes": {"name": "fav-food", "value": "pizza"},
+          "text": "Pizza"
+        },
+        {
+          "attributes": {"name": "fav-food", "value": "burgers"},
+          "text": "Burgers"
+        },
+        {
+          "attributes": {"name": "fav-food", "value": "sushi"},
+          "text": "Sushi"
+        }
+      ]
+    },
+    {
+      "question": "Which foods do you like?",
+      "type": "checkbox",
+      "answers": [
+        {
+          "attributes": {"name": "fav-food-xb", "value": "pizza"},
+          "text": "Pizza"
+        },
+        {
+          "attributes": {"name": "fav-food-xb", "value": "burgers"},
+          "text": "Burgers"
+        },
+        {
+          "attributes": {"name": "fav-food-xb", "value": "sushi"},
+          "text": "Sushi"
+        }
+      ]
+    },
+  ]
+}
